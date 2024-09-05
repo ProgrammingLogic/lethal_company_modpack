@@ -1,5 +1,5 @@
 ProfileName="Modded Lethal Company"
-ProfileName=(echo "$ProfileName" | sed -r "s/\ /\\\ ")
+ProfileName=$(echo "$ProfileName" | sed -r "s/\ /\\\ /g")
 
 cp -rvf "../exports/$ProfileName_*/" ../
 
