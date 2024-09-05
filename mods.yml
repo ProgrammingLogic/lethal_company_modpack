@@ -38,4 +38,26 @@
     minor: 10
     patch: 1
   enabled: true
-  icon: /home/jstiverson/.config/r2modmanPlus-local/LethalCompany/cache/notnotnotswipez-MoreCompany/1.10.1/icon.png
+  icon: /home/jstiverson/.config/r2modmanPlus-local/LethalCompany/profiles/Modded
+    Lethal Company/BepInEx/plugins/notnotnotswipez-MoreCompany/icon.png
+- manifestVersion: 1
+  name: anormaltwig-LateCompany
+  authorName: anormaltwig
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/anormaltwig/LateCompany/
+  displayName: LateCompany
+  description: A mod to allow players to join after the game starts.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 18
+  enabled: true
+  icon: /home/jstiverson/.config/r2modmanPlus-local/LethalCompany/cache/anormaltwig-LateCompany/1.0.18/icon.png

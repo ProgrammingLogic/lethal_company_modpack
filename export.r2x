@@ -12,3 +12,9 @@ mods:
       minor: 10
       patch: 1
     enabled: true
+  - name: anormaltwig-LateCompany
+    version:
+      major: 1
+      minor: 0
+      patch: 18
+    enabled: true
