@@ -1,1 +1,41 @@
-[]
+- manifestVersion: 1
+  name: BepInEx-BepInExPack
+  authorName: BepInEx
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/BepInEx/BepInExPack/
+  displayName: BepInExPack
+  description: BepInEx pack for Mono Unity games. Preconfigured and ready to use.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 4
+    patch: 2100
+  enabled: true
+  icon: /home/jstiverson/.config/r2modmanPlus-local/LethalCompany/cache/BepInEx-BepInExPack/5.4.2100/icon.png
+- manifestVersion: 1
+  name: notnotnotswipez-MoreCompany
+  authorName: notnotnotswipez
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/
+  displayName: MoreCompany
+  description: A stable lobby player count expansion mod. With cosmetics!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 10
+    patch: 1
+  enabled: true
+  icon: /home/jstiverson/.config/r2modmanPlus-local/LethalCompany/cache/notnotnotswipez-MoreCompany/1.10.1/icon.png

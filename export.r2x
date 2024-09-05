@@ -1,2 +1,14 @@
 profileName: Modded Lethal Company
-mods: []
+mods:
+  - name: BepInEx-BepInExPack
+    version:
+      major: 5
+      minor: 4
+      patch: 2100
+    enabled: true
+  - name: notnotnotswipez-MoreCompany
+    version:
+      major: 1
+      minor: 10
+      patch: 1
+    enabled: true
